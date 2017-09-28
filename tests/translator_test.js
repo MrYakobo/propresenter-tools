@@ -1,0 +1,5 @@
+var translator = require('../lib/translator')
+let a = translator.encode(`Hårt knäckebröd`)
+console.log(a)
+let b = translator.decode(a)
+console.log(b)

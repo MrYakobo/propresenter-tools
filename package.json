@@ -1,0 +1,33 @@
+{
+  "name": "propresenter-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/main_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrYakobo/propresenter-tools.git"
+  },
+  "keywords": [
+    "Renewed Vision",
+    "ProPresenter",
+    "Pro6"
+  ],
+  "author": "Jakob Lindskog <jakob.lindskog@gmail.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/MrYakobo/propresenter-tools/issues"
+  },
+  "homepage": "https://github.com/MrYakobo/propresenter-tools#readme",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "commander": "^2.11.0",
+    "yargs": "^9.0.1"
+  }
+}
